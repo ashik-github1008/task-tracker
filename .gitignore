@@ -2,4 +2,6 @@ node_modules/
 *.db
 .env
 dist/
-task_tracker.db
+backend/task_tracker.db
+backend/node_modules/
+frontend/node_modules/
