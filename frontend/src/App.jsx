@@ -11,7 +11,7 @@ export default function App() {
       <h1>Task Tracker</h1>
       <TaskForm onTaskCreated={() => setRefresh(!refresh)} />
       <TaskList refresh={refresh} />
-      <InsightsPanel />
+      <InsightsPanel refresh={refresh} />
     </div>
   );
 }
